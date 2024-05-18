@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px){
+    .header{
+        padding:5px 5px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect{
+        background-size: cover;
+        width: 100%;
+    
+    }  
+    .btn ,.btn2{
+        width: 80%;
+    }
+    .logo, .menu, .media {
+        flex-grow: 2;
+        width: 100%;
+    }
+    list{
+      gap: 2px;
+      display:block ;
+    }
+    .truck{
+        height: 100px;
+    }
+    #sect{
+        background-image: url('imgs/Homepage-Model-Y-Desktop-Global.avif');
+        
+        background-size: contain;
+        background-position: center;
+    }
+}

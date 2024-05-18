@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family:"M PLUS 1p", sans-serif;
+    font-style: normal;
+   
+}
+.sect{
+    background-image: url('imgs/Homepage-Model-Y-Desktop-Global.avif');
+   
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    padding:10px 50px;
+    height: 16%;
+    align-items: baseline;
+
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    color:#32363b;
+    font-size: 15px;
+    font-weight:550;
+}
+.media{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color:#171a20;
+    font-size: 14px;
+    font-weight: 300;
+ 
+
+}
+.menu {
+    flex-grow: 3;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.model{
+   text-align: center;
+   justify-content: center;
+   align-content: baseline;
+   height: 30%;
+}
+.model h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.model p{
+    padding: 2px;
+    font-size: 13px;
+}
+.button{
+    display: flex;
+    height:55%;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding-top: 7rem;
+
+}
+.btn ,.btn2{
+    width: 17.5%;
+    padding: 10px ;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    
+    
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ededed;
+    backdrop-filter: blur(8px);
+}
+.btn ,.btn:hover{
+    background-color: rgba(244, 244, 244, 0.8);
+    backdrop-filter: blur(8px);
+
+}
+.tds-icon-logo-wordmark{
+    height: 13px;
+    color: #171a20;
+}
+.truck{
+    height: 127px;
+}
+#learn:hover{
+    color: white;
+}
